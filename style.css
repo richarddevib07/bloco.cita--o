@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #101827;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+}
+
+.citacao {
+    background-color: #1e293b;
+    border-left: 5px solid #3b82f6;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.aspas {
+    font-size: 60px;
+    color: #3b82f6;
+    font-weight: bold;
+}
+
+.citacao p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.citacao cite {
+    color: #60a5fa;
+    font-size: 14px;
+    font-style: normal;
+}
